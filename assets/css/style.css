@@ -18,12 +18,10 @@
     background-repeat: repeat-y;
     background-size: cover;
     background
-  }
+}
 
   /* LINKS */
-  .mainlogo {
-    color: #000;
-  }
+ 
 
 /* HEADER */
 header {
@@ -68,16 +66,46 @@ nav {
     margin-right: 17px;
     margin-left: 15px;
     border: 1px solid #000;
-    border-radius: 5%;  
+    border-radius: 5%;
+    display: flex;
 }
 .row {
     background: #fff;
     display: flex;
-    
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #000;
 }
 .profilepic {
     width: 50%;
     margin: 5%;
     border: 1px solid #000;
     border-radius: 50%;
+    margin-left: 70px;
+}
+.sec1 {
+    background-color: #000;
+    border-bottom: 1px solid #000;
+}
+.sk {
+    color: #fff;
+    margin-left: 40px;
+}
+.col-md-4 {
+    text-align: center;
+    border: 2px solid #000;
+}
+h2 {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    background: #3e4247;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.copyright {
+    padding-left: 50px;
 }
