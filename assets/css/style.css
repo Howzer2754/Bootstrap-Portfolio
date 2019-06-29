@@ -1,0 +1,83 @@
+/*RESET - removes spaces*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* BACKGROUND WALLPAPER */
+.bg {
+    height: 200%;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background
+  }
+
+  /* LINKS */
+  .mainlogo {
+    color: #000;
+  }
+
+/* HEADER */
+header {
+    width: 100%;
+    background-image: linear-gradient(to right, #91add9 , #eaf081);
+    border: 1px solid #000;
+    border-radius: 1.5%;    
+}
+#logo {
+    float: left;
+    padding-left: 5%;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    position: relative;
+}
+.nav-pills {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 50px;
+    margin-top: 7px;
+}
+.nav-item {
+    margin: 0.5%;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    border: 1px solid #000;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ROWS & COLUMNS */
+.wrapper {
+    margin-right: 17px;
+    margin-left: 15px;
+    border: 1px solid #000;
+    border-radius: 5%;  
+}
+.row {
+    background: #fff;
+    display: flex;
+    
+}
+.profilepic {
+    width: 50%;
+    margin: 5%;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
