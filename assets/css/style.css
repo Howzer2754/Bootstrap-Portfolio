@@ -92,7 +92,7 @@ nav {
 }
 .col-md-4 {
     text-align: center;
-    border: 2px solid #000;
+    
 }
 h2 {
     text-decoration: underline;
@@ -108,4 +108,12 @@ footer {
 }
 .copyright {
     padding-left: 50px;
+}
+
+/* PORTFOLIO */
+.album {
+    background-image: linear-gradient(to right, #91add9 , #eaf081);
+}
+.card-img-top {
+    height: 250px;
 }
