@@ -20,38 +20,14 @@
     background
 }
 
-  /* LINKS */
- 
-
 /* HEADER */
-header {
-    width: 100%;
-    background-image: linear-gradient(to right, #91add9 , #eaf081);
-    border: 1px solid #000;
-    border-radius: 1.5%;    
-}
-#logo {
-    float: left;
-    padding-left: 5%;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bold;
-}
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    float: right;
-    position: relative;
+    background-image: linear-gradient(to right, #91add9 , #eaf081);
 }
-.nav-pills {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-right: 50px;
-    margin-top: 7px;
+.navbar-brand {
+    font-family: 'Libre Baskerville', serif;
 }
-.nav-item {
-    margin: 0.5%;
-}
+
 
 /* JUMBOTRON */
 .jumbotron {
@@ -101,14 +77,22 @@ h2 {
 /* FOOTER */
 footer {
     display: flex;
-    background: #3e4247;
+    background-image: linear-gradient(to right, #91add9 , #eaf081);
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: #000;
 }
 .copyright {
     padding-left: 50px;
 }
+#sticky-footer {
+    flex-shrink: none;
+    color: #000;
+    flex-direction: row;
+  }
+  .footer-margin {
+    height: 100px;
+  }
 
 /* PORTFOLIO */
 .album {
